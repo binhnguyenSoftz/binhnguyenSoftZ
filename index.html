@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binh Nguyen — Software Developer, Payment Systems</title>
+  <meta name="description" content="Binh Nguyen — Software Developer specializing in banking & payment systems, ISO 8583/20022, microservices.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<nav>
+  <div class="logo">BINH<span>.</span>NGUYEN</div>
+  <div class="navlinks">
+    <a href="#about">SUMMARY</a>
+    <a href="#experience">EXPERIENCE</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#education">EDUCATION</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div id="canvas-wrap"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="eyebrow">Payment switch online · 5 yrs in production</div>
+    <h1 class="hero-title">Building the rails<br>banks move <em>money</em> on.</h1>
+    <p class="hero-sub">Bình Nguyễn — Software Developer specializing in banking &amp; payment systems. ISO 8583 / ISO 20022 messaging, microservices migration, and high-throughput transaction processing for Agribank, Sacombank, DongA Bank and partners.</p>
+    <div class="hero-cta">
+      <a href="#experience" class="btn btn-primary">View experience →</a>
+      <a href="mailto:binh.nguyen@softz.vn" class="btn btn-ghost">binh.nguyen@softz.vn</a>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="bar"></div>SCROLL</div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-head fade-up">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Summary</h2>
+    <div class="section-rule"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <p>Software Developer with five years of experience building and modernizing banking and payment systems for leading financial institutions. Specializes in high-throughput transaction processing, microservices migration, and secure financial messaging, with hands-on expertise in ISO 8583 and ISO 20022 standards.</p>
+      <p>Proficient across Java (Spring Boot), .NET (C#), and Go — delivering enterprise-grade platforms such as national payment switches, eReceipt systems, and ERP modernization directly with banks and payment partners. Combines technical depth in encryption (ECDH) and OWASP security practices with proven cross-functional leadership in fast-paced delivery environments.</p>
+      <div class="clients">
+        <div class="clients-label">Clients &amp; Partners</div>
+        <div class="client-tags">
+          <span class="client-tag">Agribank</span>
+          <span class="client-tag">Sacombank</span>
+          <span class="client-tag">DongA Bank</span>
+          <span class="client-tag">First Commercial Bank (Cambodia)</span>
+          <span class="client-tag">ATG</span>
+          <span class="client-tag">Ingenico</span>
+        </div>
+      </div>
+    </div>
+    <div class="fade-up">
+      <div class="stat-card"><div class="stat-num">5+</div><div class="stat-label">Years in banking &amp; payment systems</div></div>
+      <div class="stat-card"><div class="stat-num">20%</div><div class="stat-label">Of NAPAS national txn volume targeted by MDP channel</div></div>
+      <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Unit test coverage achieved on CSB migration</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-head fade-up">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="group-label fade-up">Senior Software Developer · SoftZ Vietnam · Apr 2023 – Present · District 7, HCMC</div>
+
+  <div class="timeline">
+    <div class="tl-track"></div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Software Developer — MDP Project</div><div class="job-period">Feb 2026 – Present</div></div>
+      <div class="job-org">SoftZ · ATG · Sacombank (STB)</div>
+      <div class="job-stack">
+        <span class="tag">Java Spring Boot</span><span class="tag">Spring Batch</span><span class="tag">ISO 20022</span><span class="tag">ISO 8583</span><span class="tag">Payment Switch</span><span class="tag">OpenShift</span><span class="tag">Istio</span><span class="tag">SFTP</span>
+      </div>
+      <ul class="job-list">
+        <li>Engineered a payment switch integrating MobiFone's new national payment gateway (MDP) with core banking, invest, and copy-trading systems using ISO 20022 and ISO 8583 messaging standards.</li>
+        <li>Core developer on the bank-to-MDP reconciliation service, architected to scale toward millions of daily transactions across a channel projected to reach 20% of NAPAS's national transaction volume.</li>
+        <li>Built automated data ingestion and synchronization pipelines with SFTP retrieval for the dispute and chargeback lifecycle.</li>
+        <li>Implemented distributed locking to prevent duplicate job execution in concurrent environments.</li>
+        <li>Delivered services on OpenShift with an Istio service mesh, using Spring Batch for resilient large-volume batch processing.</li>
+      </ul>
+    </div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Software Developer — CSB Project</div><div class="job-period">Nov 2024 – Present</div></div>
+      <div class="job-org">SoftZ · ATG · Sacombank (STB)</div>
+      <div class="job-stack">
+        <span class="tag">Spring Integration</span><span class="tag">gRPC</span><span class="tag">ActiveMQ</span><span class="tag">IBM MQ</span><span class="tag">Oracle</span><span class="tag">DB2</span><span class="tag">MSSQL</span>
+      </div>
+      <ul class="job-list">
+        <li>Led the migration of the CSB banking system from C# to Java, re-architecting it as a microservices platform for ISO 8583 financial message routing.</li>
+        <li>Developed adapter services for OmniCard, NAPAS, and Temenos T24, integrating across the bank's payment ecosystem.</li>
+        <li>Designed high-performance external communication channels over TCP, gRPC, and HTTP.</li>
+        <li>Established a "build once, deploy everywhere" CI/CD workflow, reducing deployment errors.</li>
+        <li>Achieved 100% unit test coverage; enforced quality via SonarQube, BlackDuck, Coverity.</li>
+        <li>Strengthened production observability with Kibana and Elasticsearch on OpenShift.</li>
+      </ul>
+    </div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Software Developer — eReceipt Project</div><div class="job-period">Sep 2023 – Oct 2024</div></div>
+      <div class="job-org">SoftZ · AgriBank · Ingenico</div>
+      <div class="job-stack">
+        <span class="tag">.NET (C#)</span><span class="tag">Angular</span><span class="tag">MSSQL</span><span class="tag">JuiceFS</span><span class="tag">Linux</span><span class="tag">Nginx</span>
+      </div>
+      <ul class="job-list">
+        <li>Architected an enterprise eReceipt platform for banks, designing both API and customer-facing portal subsystems.</li>
+        <li>Developed a configurable template engine supporting multiple receipt formats with merchant/branch customization.</li>
+        <li>Integrated QR-based receipt lookup, reducing manual errors for partner banks.</li>
+        <li>Delivered DR/DC-ready deployments meeting banking high-availability standards.</li>
+        <li>Collaborated directly with foreign POS vendors and client banks on cross-border delivery.</li>
+      </ul>
+    </div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Software Developer &amp; Acting Tech Lead — ERP Project</div><div class="job-period">Dec 2023 – Dec 2024</div></div>
+      <div class="job-org">SoftZ · PosORA</div>
+      <div class="job-stack">
+        <span class="tag">.NET</span><span class="tag">Go</span><span class="tag">Java Spring Boot</span><span class="tag">Angular</span><span class="tag">Envoy</span><span class="tag">gRPC</span><span class="tag">MariaDB</span>
+      </div>
+      <ul class="job-list">
+        <li>Designed and implemented a multi-tenant ERP architecture spanning HR, Production &amp; Operations, and Retail.</li>
+        <li>Led migration of a legacy .NET and Go (gRPC/Envoy) stack to Java Spring Boot microservices with minimal downtime.</li>
+        <li>Standardized API contracts, aligning gRPC with REST/HTTP endpoints across services.</li>
+        <li>Optimized schemas and queries during migration from MSSQL to MariaDB.</li>
+        <li>Acted as a hybrid Tech Lead / PM, tracking timelines and reporting to senior management.</li>
+      </ul>
+    </div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Backend Software Developer — DAB Payment Gateway</div><div class="job-period">Jul 2024 – Dec 2024</div></div>
+      <div class="job-org">SoftZ · ATG · DongA Bank</div>
+      <div class="job-stack">
+        <span class="tag">WSO2 Micro Integrator</span><span class="tag">WSO2 API Gateway</span><span class="tag">Java</span><span class="tag">XML/DSL</span>
+      </div>
+      <ul class="job-list">
+        <li>Developed backend integration services for DongA Bank's new payment system using WSO2 Micro Integrator &amp; Integration Studio.</li>
+        <li>Implemented APIs for core fund-transfer flows: internal card transfers (xCard), foreign currency clearing (FCC), interbank transfers (NAPAS).</li>
+        <li>Configured API gateway policies for routing, security, and rate limiting across payment endpoints.</li>
+        <li>Ensured transaction integrity, robust error handling, and regulatory compliance.</li>
+      </ul>
+    </div>
+
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Frontend Software Developer — SoftPOS v3 Project</div><div class="job-period">May 2023 – Aug 2024</div></div>
+      <div class="job-org">SoftZ · ATG</div>
+      <div class="job-stack">
+        <span class="tag">.NET</span><span class="tag">Angular</span><span class="tag">MSSQL</span><span class="tag">ECDH</span><span class="tag">OWASP</span>
+      </div>
+      <ul class="job-list">
+        <li>Built a SoftPOS portal for managing merchants, branches, and stores, with transaction switching across NAPAS, MPGS and others.</li>
+        <li>Implemented ECDH key exchange (handshake and secure key transfer) to protect sensitive transaction data.</li>
+        <li>Developed a secure payment page handling cardholder data (PAN, CVV) per OWASP Top 10.</li>
+        <li>Reduced security vulnerabilities and improved maintainability by enforcing SonarQube.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="group-label fade-up" style="margin-top:60px;">Software Developer · Leopard Solutions · Apr 2021 – Dec 2022 · An Giang, Vietnam (Part-time)</div>
+  <div class="timeline">
+    <div class="tl-track"></div>
+    <div class="job fade-up">
+      <div class="job-dot"></div>
+      <div class="job-header"><div class="job-role">Software Developer — Health Data Management</div><div class="job-period">Apr 2021 – Oct 2023</div></div>
+      <div class="job-org">Leopard JSC</div>
+      <div class="job-stack">
+        <span class="tag">C++</span><span class="tag">MongoDB</span><span class="tag">Hiawatha</span><span class="tag">Unix Socket</span><span class="tag">CMake</span><span class="tag">Bootstrap</span><span class="tag">Google Maps API</span><span class="tag">Pytest</span>
+      </div>
+      <ul class="job-list">
+        <li>Designed a high-performance C++ backend using multithreading and smart pointers to process large volumes of health data.</li>
+        <li>Implemented Unix-socket IPC for real-time data exchange between system components.</li>
+        <li>Built a web frontend with Bootstrap and AJAX, integrating Google Maps API to visualize patient and facility locations.</li>
+        <li>Improved reliability through Pytest automation; streamlined builds with CMake and Makefiles.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MENTORSHIP -->
+<section id="mentorship">
+  <div class="section-head fade-up">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Mentorship &amp; Teaching</h2>
+    <div class="section-rule"></div>
+  </div>
+  <p class="fade-up" style="color:#c7d2de;max-width:680px;margin-bottom:30px;">Technical Advisor / Mentor, SoftZ Internship Program (2024 – Present) — guided interns and university students across banking and enterprise software projects, from technical onboarding to final delivery.</p>
+  <div class="mentor-cards">
+    <div class="mentor-card fade-up">
+      <h4>jPOS &amp; ISO 8583</h4>
+      <p>Supervised an HCMUT student building a jPOS-based ISO 8583 financial transaction system — payment switch architecture, message routing, and load testing with JMeter.</p>
+    </div>
+    <div class="mentor-card fade-up">
+      <h4>Recruitment Platform</h4>
+      <p>Guided three Saigon University students developing a Java Spring Boot recruitment platform — backend design, REST APIs, and database modeling.</p>
+    </div>
+    <div class="mentor-card fade-up">
+      <h4>ISO 8583 Log Analyzer</h4>
+      <p>Advised a student building a log-analysis tool with Wails (Go) to parse and inspect ISO 8583 messages in a banking environment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head fade-up">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="section-rule"></div>
+  </div>
+  <div class="skills-grid fade-up">
+    <div class="skill-cell">
+      <div class="skill-cat">Languages &amp; Frameworks</div>
+      <div class="skill-items">
+        <span class="skill-pill">Java / Spring Boot</span><span class="skill-pill">Spring Integration</span><span class="skill-pill">Spring Batch</span><span class="skill-pill">.NET (C#)</span><span class="skill-pill">Go</span><span class="skill-pill">C++</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-cat">Frontend</div>
+      <div class="skill-items">
+        <span class="skill-pill">Angular</span><span class="skill-pill">PrimeNG</span><span class="skill-pill">Bootstrap</span><span class="skill-pill">AJAX</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-cat">Messaging &amp; Integration</div>
+      <div class="skill-items">
+        <span class="skill-pill">gRPC</span><span class="skill-pill">ActiveMQ</span><span class="skill-pill">IBM MQ</span><span class="skill-pill">ISO 8583</span><span class="skill-pill">ISO 20022</span><span class="skill-pill">Envoy</span><span class="skill-pill">WSO2</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-cat">Infrastructure &amp; DevOps</div>
+      <div class="skill-items">
+        <span class="skill-pill">OpenShift</span><span class="skill-pill">Kubernetes</span><span class="skill-pill">Istio</span><span class="skill-pill">Docker</span><span class="skill-pill">Linux</span><span class="skill-pill">Nginx</span><span class="skill-pill">CI/CD</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-cat">Databases</div>
+      <div class="skill-items">
+        <span class="skill-pill">Oracle</span><span class="skill-pill">MSSQL</span><span class="skill-pill">MariaDB</span><span class="skill-pill">DB2</span><span class="skill-pill">MongoDB</span>
+      </div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-cat">Security &amp; Quality</div>
+      <div class="skill-items">
+        <span class="skill-pill">ECDH</span><span class="skill-pill">OWASP Top 10</span><span class="skill-pill">SonarQube</span><span class="skill-pill">BlackDuck</span><span class="skill-pill">Coverity</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION / CERTS / HONORS -->
+<section id="education">
+  <div class="section-head fade-up">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Education &amp; Recognition</h2>
+    <div class="section-rule"></div>
+  </div>
+  <div class="two-col">
+    <div>
+      <div class="edu-item fade-up">
+        <h4>Master of Information Technology — An Giang University</h4>
+        <div class="meta">2025 – 2027</div>
+        <p>Machine Learning · Computer Vision · Deep Learning · LLMs — supervised/unsupervised learning, CNNs, Transformer architecture, prompting, fine-tuning, and RAG.</p>
+      </div>
+      <div class="edu-item fade-up">
+        <h4>Bachelor of Information Technology — An Giang University</h4>
+        <div class="meta">2020 – 2023 · An Giang, Vietnam</div>
+      </div>
+      <div class="edu-item fade-up">
+        <h4>Languages</h4>
+        <p>Vietnamese — Native &nbsp;·&nbsp; English — B2 (Upper Intermediate)</p>
+      </div>
+    </div>
+    <div>
+      <div class="clients-label fade-up" style="margin-bottom:14px;">Certificates</div>
+      <ul class="simple-list fade-up">
+        <li>Working with Microservices in Go (Golang) — Udemy <span>Apr 2022</span></li>
+        <li>Algorithms on Graphs — HSE University <span>Oct 2020</span></li>
+      </ul>
+      <div class="clients-label fade-up" style="margin:28px 0 14px;">Honors &amp; Awards</div>
+      <ul class="simple-list fade-up">
+        <li>Odon Vallet Scholarship for Academic Excellence <span>Mar 2017</span></li>
+        <li>VIASM Scholarship — Vietnam Institute for Advanced Study in Mathematics <span>Mar 2016</span></li>
+        <li>Valedictorian, Provincial Mathematics Competition — An Giang <span>Jan 2016</span></li>
+        <li>An Giang Talent Support Fund Scholarship <span>Jan 2016</span></li>
+        <li>Gold Medal, 30/4 Mathematics Olympiad for Southern Vietnam <span>Apr 2015</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="contact-title fade-up">Let's route the next <span class="blink">transaction</span>.</h2>
+  <p class="contact-sub fade-up">Open to senior backend / payment systems roles. Based in Ho Chi Minh City, Vietnam.</p>
+  <div class="contact-links fade-up">
+    <a href="mailto:binh.nguyen@softz.vn" class="btn btn-primary">✉ binh.nguyen@softz.vn</a>
+    <a href="tel:+84522071147" class="btn btn-ghost">+84 522 071 147</a>
+    <a href="#" class="btn btn-ghost">LinkedIn ↗</a>
+  </div>
+  <footer>
+    <div>© 2026 Bình Nguyễn. Built with HTML, CSS &amp; WebGL.</div>
+    <div>Ho Chi Minh City, Vietnam</div>
+  </footer>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/js/hero-network.js"></script>
+<script src="assets/js/scroll-reveal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Design Tokens — color palette, typography & shared variables
+   ========================================================================== */
+:root {
+  /* Surfaces */
+  --bg: #070a10;
+  --bg2: #0c121c;
+  --panel: #0f1620;
+  --line: #1c2733;
+
+  /* Text */
+  --text: #e8edf3;
+  --muted: #7e8fa3;
+
+  /* Accents */
+  --cyan: #3fd9c7;
+  --amber: #e8a23f;
+  --magenta: #c97bd1;
+
+  /* Type families */
+  --mono: 'JetBrains Mono', monospace;
+  --display: 'Space Grotesk', sans-serif;
+}
